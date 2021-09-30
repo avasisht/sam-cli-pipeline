@@ -1,0 +1,7 @@
+providers:
+  - displayName: AWS CodePipeline
+    id: aws-codepipeline
+templates:
+  - displayName: Single-stage pipeline
+    provider: aws-codepipeline
+    location: AWS-CodePipeline/two-stage-pipeline-template
